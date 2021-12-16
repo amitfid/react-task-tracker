@@ -6,11 +6,13 @@ function App() {
   const [tasks, setTasks] = useState([
     {
         id: 1,
-        text: 'hey1'
+        text: 'hey1',
+        day: 'this is when this happened'
     },
     {
         id: 2,
-        text: 'hey2'
+        text: 'hey2',
+        day: 'this is when that happened'
     }
 ])
 
